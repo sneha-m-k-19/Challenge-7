@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TajMaster.master.cs" Inherits="Challenge_7.TajMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url(Gallery/Hotel3.jpg);background-repeat:no-repeat;">
+     <div>
+   <nav style="background-color:white" align="center" >
+       <br /><br /> <b>&nbsp
+                 <a class="nav-link active" href="Index.aspx">Home</a> &nbsp&nbsp
+               <a class="nav-link active" href="../OurTeam.aspx">Our Team</a> &nbsp&nbsp
+               <a class="nav-link active" href="../Menu.aspx">Menu</a> &nbsp&nbsp
+               <a class="nav-link active" href="../Gallery.aspx">Galery</a>&nbsp&nbsp
+               <a class="nav-link active" href="../Contact.aspx">Contact Us</a>&nbsp&nbsp
+       </b><br /><br />
+       <br />
+   </nav> 
+        </div>
+     <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    <form id="form1" runat="server">
+        
+    </form>
+</body>
+</html>
